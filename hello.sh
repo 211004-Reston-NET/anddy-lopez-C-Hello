@@ -1,7 +1,7 @@
 W# This is a comment to add more information to your code
 # echo Comment
 echo Hello # <- This is an echo to display Hello
-echo World Testing pls work
+echo World Testing pls work #It worked
 
 msg="Hello World"
 
@@ -43,4 +43,5 @@ if [ "$input" == "4" ]
 then
 	echo You are smart
 fi
+
 
