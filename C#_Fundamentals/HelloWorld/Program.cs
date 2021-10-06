@@ -1,4 +1,5 @@
 ﻿using System;
+using CollectionFunction;
 using HouseFunction;
 // This is a comment
 
@@ -36,10 +37,14 @@ namespace HelloWorld
             Console.WriteLine(Stephen.Owner);
 
 
-            // Practice Assignment
+            // Practice Assignment to study
             Console.WriteLine("Your Name?");
             string s = Console.ReadLine();
             Console.WriteLine("You are so cool " + s);
+
+            Collection collectionObj = new Collection(); 
+            collectionObj.CollectionMain();
+            
         }
 
         public static int Example()
